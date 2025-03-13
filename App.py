@@ -86,14 +86,3 @@ elif menu == "Upload Reports":
     
     if uploaded_file:
         st.success(f"✅ File '{uploaded_file.name}' uploaded successfully!")
-
-# -----------------------
-# Footer
-st.markdown("---")
-st.markdown("📌 **Built with Streamlit** | 🏥 Patient Management System")
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/swaheed15/Patient Registration.git
-git push -u origin main
